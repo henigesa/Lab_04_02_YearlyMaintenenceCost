@@ -29,6 +29,10 @@ public class Main {
         //calculate total cost
         totalCost = springCost + summerCost + fallCost + winterCost ;
         //output the calculated total cost
-        System.out.println("Your total home maintenance cost for the year is" + totalCost) ;
+        System.out.println("Your total home maintenance cost for the year is $" + totalCost + " with the cost components:") ;
+        System.out.println ("Summer Maintenance Cost: $" + summerCost) ;
+        System.out.println ("Fall Maintenance Cost: $" + fallCost) ;
+        System.out.println ("Winter Maintenance Cost: $" + winterCost) ;
+        System.out.println ("Spring Maintenance Cost: $" + springCost) ;
     }
 }
